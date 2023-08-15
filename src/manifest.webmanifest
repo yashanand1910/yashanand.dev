@@ -1,20 +1,20 @@
 {
-  "name": "yashanand-dev",
-  "short_name": "yashanand-dev",
-  "theme_color": "#488aff",
-  "background_color": "#488aff",
+  "name": "yashanand.dev",
+  "short_name": "yashanand.dev",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
   "display": "standalone",
   "scope": "./",
   "start_url": "./",
   "icons": [
     {
-      "src": "assets/ngx-rocket-logo.png",
+      "src": "assets/icon-512x512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable any"
     },
     {
-      "src": "assets/ngx-rocket-logo@192.png",
+      "src": "assets/icon-192x192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable any"

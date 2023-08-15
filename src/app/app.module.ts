@@ -16,7 +16,7 @@ import { AuthorizationInterceptor } from './shared/http/authorization.intercepto
 
 @NgModule({
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     ServiceWorkerModule.register('./ngsw-worker.js', { enabled: environment.production }),
     HttpClientModule,
     TranslateModule.forRoot(),
